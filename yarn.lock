@@ -4659,7 +4659,7 @@ __metadata:
     react-native-gesture-handler: "npm:^2.28.0"
     react-native-google-places-autocomplete: "npm:^2.5.7"
     react-native-hole-view: "npm:^3.0.1"
-    react-native-iap: "npm:^14.3.7"
+    react-native-iap: "npm:^14.3.9"
     react-native-image-picker: "npm:^8.2.1"
     react-native-linear-gradient: "npm:^2.8.3"
     react-native-localize: "npm:^3.5.2"
@@ -4690,7 +4690,8 @@ __metadata:
     react-native-svg-transformer: "npm:^1.5.1"
     react-native-ui-datepicker: "npm:^3.1.2"
     react-native-vector-icons: "npm:^10.3.0"
-    react-native-video: "npm:^6.16.1"
+    react-native-video: "npm:7.0.0-alpha.4"
+    react-native-video-player: "npm:^0.16.3"
     react-native-walkthrough-tooltip: "npm:^1.6.0"
     react-native-webview: "npm:^13.16.0"
     react-native-worklets: "npm:^0.5.1"
@@ -10990,14 +10991,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-iap@npm:^14.3.7":
-  version: 14.3.7
-  resolution: "react-native-iap@npm:14.3.7"
+"react-native-iap@npm:^14.3.9":
+  version: 14.3.9
+  resolution: "react-native-iap@npm:14.3.9"
   peerDependencies:
     react: "*"
     react-native: "*"
     react-native-nitro-modules: ^0.29.6
-  checksum: 10c0/b128c6dc00a88836265a9192b4bbfcfbbe7d5d0c4a653dff094eedeb66096b80e0c3c178d72b9928d37691e0796f70a889075a8e35472164f884b7598631647f
+  checksum: 10c0/06ddc85d355a1923e81a6e2edc38c7b5d01bb4f9f6d6f298fa57407c1fabc695d7a46e8174a0c4d24f8f3a32cedf76a0f0e0dc6837f77c4ca5385992086ffc81
   languageName: node
   linkType: hard
 
@@ -11489,13 +11490,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-video@npm:^6.16.1":
-  version: 6.16.1
-  resolution: "react-native-video@npm:6.16.1"
+"react-native-video-player@npm:^0.16.3":
+  version: 0.16.3
+  resolution: "react-native-video-player@npm:0.16.3"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/f30ba6bcf1e9350d5efb8d08cb73f8ddb096393936939b6134f8d1ca03987c5534c18817784584b83d3450ab68a03273c758c1b5288f302cc1af376282443eb7
+    react-native-video: ^6.8.0
+  checksum: 10c0/a062a3b1592799a4d4e0d89e8a42300ba48a9ecd9fd59fd68a6b4a7e7b0585d4861465989cff157a34830b1f35ad71177180c28890164206e6062d71cb3a524c
+  languageName: node
+  linkType: hard
+
+"react-native-video@npm:7.0.0-alpha.4":
+  version: 7.0.0-alpha.4
+  resolution: "react-native-video@npm:7.0.0-alpha.4"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+    react-native-nitro-modules: ">=0.27.2"
+  checksum: 10c0/6a9df894296842676ae8e1151e14cf1476070f04a6a827849f0888775ce7e68b799963beacd9992799f1f434dd336549b97647e41b66cb656efd8f2cf382dba8
   languageName: node
   linkType: hard
 
